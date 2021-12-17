@@ -1,0 +1,205 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+
+    font-family: 'Oswald', sans-serif;
+
+    font-family: 'Roboto Condensed', sans-serif;
+
+    font-family: 'Source Code Pro', monospace;
+}
+
+html,body,.father
+{
+    width: 100%;
+    height: 100%;
+}
+
+body
+{
+    position: relative;
+}
+
+.father
+{
+    display: flex;
+    justify-content: center;
+    background-color: #eee;
+}
+
+section.container
+{
+    height: 100%;
+    width: 1100px;
+    display: grid;
+    grid-template-rows: 100px 1fr;
+}
+
+section.container .head
+{
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    padding: 20px;
+    background-color: honeydew;
+}
+
+section.container .head i
+{
+    font-size: 55px;
+    
+    color: #48bf48;
+}
+
+section.container .head h1
+{
+    font-size: 55px;
+    
+    color: #837191;
+}
+
+section.body
+{
+    padding: 20px;
+}
+
+section.body .i
+{
+    font-size: 35px;
+    color: darkgreen;
+    display: block;
+    margin: auto;
+    width: fit-content;
+}
+
+section.body i
+{
+    cursor: pointer;
+}
+
+section.body i:active
+{
+    color: #48bf48;
+}
+
+section.body table
+{
+    width: 100%;
+    text-align: center;
+}
+
+section.body table th
+{
+    background-color: #00a1ff;
+    color: #ffffff;
+    padding: 3px;
+    font-size: 20px;
+
+}
+
+.edit
+{
+    color: blue;
+}
+
+.edit:hover
+{
+    color: #5454ff;
+}
+
+.delet
+{
+    color: red;
+}
+
+.delet:hover
+{
+    color: #ff5656;
+}
+
+.info
+{
+    color: #000;
+}
+
+.info:hover
+{
+    color: #18000091;
+}
+
+table td
+{
+    background-color: #2be2743b;
+    padding: 3px;
+    overflow: hidden;
+}
+
+/* ****************************************8 */
+.filter
+{
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background-color: rgba(0, 0, 0, 0.459);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.adding-product
+{
+    background-color: #0ac767;
+    color: white;
+    width: 480px;
+    padding: 20px;
+}
+
+section.adding-product h2
+{
+    font-size: 40px;
+}
+
+section.adding-product section.add-form input
+{
+    display: block;
+    border: none;
+    outline: none;
+    margin: 26px 0;
+    width: 440px;
+    height: 37px;
+    padding: 5px;
+    padding-left: 10px;
+    font-size: 18px;
+}
+
+section.adding-product section.add-form button
+{
+    font-weight: bold;
+    border: none;
+    width: 190px;
+    height: 43px;
+    background-color: #085653;
+    color: #ffed05;
+    font-size: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+section.adding-product section.add-form button#cancel
+{
+    margin-left: 90px;
+}
+
+.error
+{
+    width: fit-content;
+    padding: 3px;
+    background-color: #ffff01;
+    border-left: 5px yellowgreen solid;
+    color: red;
+    font-size: 15px;
+}
+
